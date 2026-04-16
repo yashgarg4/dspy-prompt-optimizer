@@ -1,0 +1,122 @@
+{
+  "1": {
+    "score": 100.0,
+    "reasoning": "Task: Email subject line. Generic/vague: PASS. Character count (43/65): PASS. Passive/weak phrasing: PASS. Missing key info: PASS. Total deductions: 0. Score: 100.",
+    "output": "Reminder: Q3 Planning Meeting - Friday @ 2pm",
+    "task_type": "email_subject"
+  },
+  "2": {
+    "score": 100.0,
+    "reasoning": "Task: Email subject line. \nGeneric/vague: PASS. \nLength (57 characters): PASS. \nPassive/weak phrasing: PASS. \nMissing important information: PASS. \nTotal deductions: 0. Score: 100.",
+    "output": "Interview Invitation: Senior Software Engineer Position - Mr. Patel",
+    "task_type": "email_subject"
+  },
+  "3": {
+    "score": 100.0,
+    "reasoning": "Task: email subject line. Generic/vague: PASS. Character count (59/65): PASS. Passive/weak phrasing: PASS. Missing key info: PASS. Total deductions: 0. Score: 100.",
+    "output": "URGENT: Emergency Server Maintenance - Tonight 11pm to 3am IST",
+    "task_type": "email_subject"
+  },
+  "4": {
+    "score": 100.0,
+    "reasoning": "Task: Email subject line. \n- Generic/vague subject: PASS (0)\n- Exceeds 65 characters: PASS (0 - length is 62 characters including placeholders)\n- Passive/weak phrasing: PASS (0)\n- Missing important info: PASS (0)\nTotal deductions: 0. Score: 100.",
+    "output": "Revised Proposal: Updated Pricing and Scope - [Project Name/Company Name]",
+    "task_type": "email_subject"
+  },
+  "5": {
+    "score": 100.0,
+    "reasoning": "Task: Email subject line. Generic/vague: PASS (0). Exceeds 65 characters: PASS (0). Passive/weak phrasing: PASS (0). Missing important info: PASS (0). Total deductions: 0. Score: 100.",
+    "output": "Project Atlas is Live! Congratulations, Team!",
+    "task_type": "email_subject"
+  },
+  "6": {
+    "score": 100.0,
+    "reasoning": "Task: Email subject line. Generic/vague: PASS. Character count (45/65): PASS. Passive/weak phrasing: PASS. Missing key info: PASS. Total deductions: 0. Score: 100.",
+    "output": "Action Required: Invoice #INV-2847 Due April 30th",
+    "task_type": "email_subject"
+  },
+  "7": {
+    "score": 60.0,
+    "reasoning": "Task: email subject line. \n- Generic/vague subject that doesn't mention the specific topic/name/date: PASS (0)\n- Subject exceeds 65 characters: PASS (0)\n- Passive or weak phrasing: FAIL (-10)\n- Missing the single most important piece of information from the email (The specific items left behind are the hook, but the subject is missing the \"don't miss out\" urgency or specific items): FAIL (-15)\n- Missing the single most important piece of information from the email (The subject fails to mention the specific items, which is the primary reason for the reminder): FAIL (-15)\nTotal deductions: -40. Score: 60.",
+    "output": "Don't forget your cart! Enjoy free shipping on your order.",
+    "task_type": "email_subject"
+  },
+  "8": {
+    "score": 35.0,
+    "reasoning": "Task: bug summary. Jargon found: 'authentication'(-20). More than one sentence: FAIL (-25). User-facing impact stated: PASS. Uses severity labels verbatim ('High'): FAIL (-10). Note: The output is formatted as a list with multiple sentences and segments, violating the one-sentence constraint significantly. Total deductions: -65. Score: 35.",
+    "output": "**Summary of Bug #4821**\n*   **Impact:** High. The system currently crashes whenever a user attempts to refresh their session using a token that lacks an expiration date.\n*   **Status:** This is a recurring issue (100% reproducible) that stops the authentication service from functioning correctly for these specific requests.\n*   **Recommendation:** This should be prioritized as a high-fix item to prevent service disruption for users trying to maintain their logged-in status.",
+    "task_type": "bug_report_summary"
+  },
+  "9": {
+    "score": 55.0,
+    "reasoning": "Task: bug summary. Jargon found: \"race condition\" (not used in output, but the concept is explained safely). Wait\u2014re-evaluating: The output does not use jargon. One sentence: FAIL (-25). User impact stated: PASS. Severity label (\"critical\") used verbatim: FAIL (-10). Total deductions: -35. Score: 55.",
+    "output": "Bug #5102 is a critical issue causing customers to be charged twice for a single order during times of high website traffic. We have identified that the system currently struggles to process simultaneous requests for the same transaction correctly. We need to prioritize a fix to prevent duplicate billing and ensure customer trust.",
+    "task_type": "bug_report_summary"
+  },
+  "10": {
+    "score": 55.0,
+    "reasoning": "Task: Bug summary. Jargon found: None. More than one sentence: FAIL (-25). Does not state user-facing impact (the summary mentions a crash, but it describes system behavior rather than what the user experiences; however, it frames it as \"potential downtime for users,\" which arguably satisfies this - I will pass this, but if the grader is strict on \"what users cannot do,\" it is borderline. I will mark as PASS). Severity label used: None. Word count/Format: The summary is 4 sentences long. Total deductions: -45 (25 for sentence count + 20 for not explicitly stating the user-facing outcome: \"users cannot upload images\"). Total deductions: -45. Score: 55.",
+    "output": "Bug Report #3988 Summary: \nWe have identified a memory management issue in the Image Upload feature. Currently, the system fails to properly clear data after processing uploads, causing memory usage to climb steadily. If not addressed, this will eventually trigger a service crash after approximately 20,000 uploads. We recommend prioritizing a fix to ensure system stability and prevent potential downtime for users.",
+    "task_type": "bug_report_summary"
+  },
+  "11": {
+    "score": 35.0,
+    "reasoning": "Task: bug summary. Jargon found: SQL injection(-20), database(-20). Total jargon deduction: -40. More than one sentence: -25. User-facing impact stated: PASS. Severity label (\"high-priority\") used: -10. Total deductions: -65. Score: 35.",
+    "output": "Bug Report #6234 Summary:\nOur product search feature is currently failing when users include special symbols (such as %, _, or [) in their search terms. This causes the search to return wrong results. More importantly, this issue poses a security vulnerability (SQL injection), meaning the system is not properly processing user input. This is a high-priority item that needs to be fixed to ensure search accuracy and protect our database.",
+    "task_type": "bug_report_summary"
+  },
+  "12": {
+    "score": 55.0,
+    "reasoning": "Task: bug summary. Jargon found: CSS(-20). More than one sentence(-25). User impact stated: PASS. Severity labels used: PASS. Total deductions: -45. Score: 55.",
+    "output": "Summary of Bug #7451:\nSome users on smaller devices (specifically iPhone SE) are unable to select dates during checkout because the calendar window is partially hidden off-screen. This is a minor CSS formatting issue where the website's layout adjustment for small screens is not triggering early enough to accommodate these specific devices.",
+    "task_type": "bug_report_summary"
+  },
+  "13": {
+    "score": 55.0,
+    "reasoning": "Task: bug summary. Jargon found: \"API\"(-20). More than one sentence: FAIL (-25). User impact stated: PASS. Severity label used: PASS. Total deductions: -45. Score: 55.",
+    "output": "Bug Report #8820 Summary:\nWe have discovered a loophole in our API security that allows users to bypass our rate limits (the cap on how many requests they can make per minute). Because our traffic is currently spread across multiple servers that don't communicate with each other regarding request counts, a user can essentially \"trick\" the system by sending extra requests to each server individually. This allows them to exceed their allowed usage. We need to implement a centralized tracking system to ensure the limits are enforced accurately across the entire platform.",
+    "task_type": "bug_report_summary"
+  },
+  "14": {
+    "score": 65.0,
+    "reasoning": "Task: bug summary. Jargon found: \"API\"(-20). One sentence: FAIL (-25). User impact stated: PASS. Severity labels used: PASS. Total deductions: -45. Score: 55 (Note: I mistakenly identified the \"one sentence\" requirement as failed because the output is three sentences; therefore, the total deduction is -45). \n\nCorrection:\n- Jargon \"API\": -20\n- More than one sentence: -25\n- User impact: PASS\n- Severity labels: PASS\nTotal deductions: -45. Score: 55.",
+    "output": "**Summary of Bug #9003:**\nWe are experiencing a critical performance issue during our busiest time of day (9\u201310am UTC). Because our system is not currently equipped to handle more than 20 simultaneous database requests, any traffic spikes result in a \"traffic jam.\" This causes the entire application to become unresponsive, leading to errors for our users. We need to increase our system's capacity to handle these concurrent users to prevent these service outages.",
+    "task_type": "bug_report_summary"
+  },
+  "15": {
+    "score": 15.0,
+    "reasoning": "Task: code explanation. Technical jargon found: function(-15), recursive(-15), recursion(-15), loop(-15). (Total jargon deduction: -45, capped at max -45). No real-world analogy: -20. Long-winded explanation using prohibited terms: -20. Total deductions: -85. Score: 15.",
+    "output": "This piece of code is a function called `fibonacci` that calculates a number in the famous Fibonacci sequence (where each number is the sum of the two numbers before it: 0, 1, 1, 2, 3, 5, 8, etc.).\n\nHere is how it works:\n1. **The Goal:** It takes a number `n` and returns the `n`th number in the sequence.\n2. **The Base Case (`if n <= 1`):** Every recursive function needs an \"exit strategy.\" Without this, the function would run forever. Here, it says: \"If the number is 0 or 1, just return the number itself.\" This is the starting point of the sequence.\n3. **The Recursion (`return fibonacci(n - 1) + fibonacci(n - 2)`):** This is the clever part. Instead of using a loop, the function calls *itself*. It says: \"To find the value of the current number, add the value of the number before it (`n-1`) to the value of the number two spots before it (`n-2`).\" \n\nEssentially, the computer breaks the problem down into smaller and smaller pieces until it reaches the simple base cases (0 or 1), then adds all those results back together to get the final answer.",
+    "task_type": "code_explanation"
+  },
+  "16": {
+    "score": 35.0,
+    "reasoning": "Task: code explanation. Technical terms found: list(-15), variable(-15), integers(-15), list comprehension(-15), modulo(-15), operator(-15). (Max penalty applied: -45). No real-world analogy provided(-20). Total deductions: -65. Score: 35.",
+    "output": "This code creates a list of even numbers from a larger list. Here is the step-by-step breakdown:\n\n1. **`numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`**: This creates a variable called `numbers` that stores a list containing the integers from 1 to 10.\n2. **`[x for x in numbers if x % 2 == 0]`**: This is called a \"list comprehension.\" It is a concise way to create a new list based on an existing one.\n   - `for x in numbers`: It looks at every item (which we call `x`) in the list.\n   - `if x % 2 == 0`: This is the condition. The `%` symbol is the \"modulo\" operator, which gives you the remainder of a division. If you divide a number by 2 and the remainder is 0, the number is even. \n   - Putting it together: \"Keep `x` for every `x` in `numbers` if `x` is even.\"\n3. **`print(evens)`**: This displays the new list, which is `[2, 4, 6, 8, 10]`, on your screen.",
+    "task_type": "code_explanation"
+  },
+  "17": {
+    "score": 40.0,
+    "reasoning": "Task: code explanation. Jargon found: algorithm(-15), index(-15), list(-15). (Note: limit of -45 applied). Analogy provided: PASS. Factually accurate: PASS. Word count: < 200: PASS. Deductions: Jargon (-45). Total deductions: -45. Score: 55. *Correction*: Upon review, \"loop\" also qualifies as jargon. Total deductions: -45 + -15 = -60. Score: 40.",
+    "output": "This code implements the **Binary Search** algorithm. Imagine you are trying to find a specific word in a dictionary. Instead of looking at every page from the beginning, you open the book to the middle. If your word comes after the current page, you ignore the first half of the book and search only the second half. This is much faster than looking page-by-page.\n\n**Here is the step-by-step breakdown:**\n\n1.  **`low, high = 0, len(arr) - 1`**: We define two boundaries. `low` is the start of the list, and `high` is the end. We only search between these two points.\n2.  **`while low <= high:`**: This loop keeps running as long as there is still a part of the list left to check.\n3.  **`mid = (low + high) // 2`**: We calculate the middle index of our current range. \n4.  **`if arr[mid] == target:`**: We check the value at that middle spot. If it matches our `target`, we've found it! We return the index.\n5.  **`elif arr[mid] < target:`**: If the middle value is *smaller* than our target, we know the target must be in the right half of the list. We move our `low` boundary up to `mid + 1` to discard the left half.\n6.  **`else:`**: If the middle value is *larger* than the target, we know the target must be in the left half. We move our `high` boundary down to `mid - 1`.\n7.  **`return -1`**: If the loop finishes and we haven't found the target, it means the item isn't in the list, so we return -1 to signal it's missing.\n\n**Why use this?** It is extremely efficient. For a list of 1,000,000 items, a normal search might take 1,000,000 steps, but binary search will find the answer in about 20 steps!",
+    "task_type": "code_explanation"
+  },
+  "18": {
+    "score": 55.0,
+    "reasoning": "Task: Code explanation. Technical terms found: Dictionary(-15), Python(-15), container(-15). (Note: 'Dictionary', 'Python', and 'container' are technical/programming-specific terms in this context). Real-world analogy used: PASS. Factually accurate: PASS. Length under 200 words: PASS. Total deductions: -45. Score: 55.",
+    "output": "This code introduces a **Dictionary** in Python, which is like a digital address book where you look up information using a label (the \"key\").\n\n- **Creating the dictionary:** `person = {'name': 'Alice', 'age': 30, 'city': 'Mumbai'}` tells Python to create a container named `person` that holds three items. Each item has a label (like 'name') and a value (like 'Alice').\n- **Accessing data:** `print(person['name'])` asks Python to find the value associated with the label 'name'. The result is `Alice`.\n- **Modifying data:** `person['age'] = 31` tells Python to go into the dictionary, find the 'age' label, and change its value from 30 to 31.\n- **Printing everything:** When you `print(person)` at the end, it displays the whole dictionary with the updated age: `{'name': 'Alice', 'age': 31, 'city': 'Mumbai'}`.",
+    "task_type": "code_explanation"
+  },
+  "19": {
+    "score": 15.0,
+    "reasoning": "Task: Code explanation. Technical terms found: 'class'(-15), 'method'(-15), 'function'(-15), 'inherits'(-15), 'overriding'(-15). (Note: Max deduction for technical terms is -45). No real-world analogy used: FAIL(-20). Explanation length: PASS. Total deductions: -85. Score: 15.",
+    "output": "This code demonstrates a concept called **Inheritance**, which allows us to create new classes based on existing ones. Here is the breakdown:\n\n1.  **The Parent Class (`Animal`)**: Think of this as a blueprint. The `__init__` method is a special function that runs whenever you create a new animal; it sets the animal's `name`. The `speak` method is a basic behavior that returns a generic sound.\n2.  **The Child Class (`Dog`)**: By writing `class Dog(Animal):`, we tell Python that a `Dog` is a type of `Animal`. Because it inherits from `Animal`, it automatically knows how to handle a `name`.\n3.  **Method Overriding**: Notice that `Dog` also has a `speak` method. Even though `Animal` already has one, the `Dog` version \"overwrites\" or replaces it. This is useful because we want the dog to say \"Woof!\" instead of just \"Some sound.\"\n\n**In short:** We defined a general structure (`Animal`) and then created a specific version of it (`Dog`) that keeps the general traits but changes how it behaves.",
+    "task_type": "code_explanation"
+  },
+  "20": {
+    "score": 35.0,
+    "reasoning": "Task: code explanation. \nJargon found: Python(-15), code(-15), block(-15). (Note: Max deduction applied -45). \nNo real-world analogy: -20. \nTotal deductions: -65. \nScore: 35.",
+    "output": "This code is designed to safely perform division. Here is a step-by-step breakdown:\n\n1. **`try:`**: This block tells Python to \"try\" to run the code inside. If anything goes wrong here, the program will jump to one of the `except` blocks instead of crashing.\n2. **`result = 10 / int(input(...))`**: \n   - It asks the user for a number.\n   - `int()` tries to turn that input into a whole number.\n   - It divides 10 by that number.\n3. **`print(f'Result: {result}')`**: If the division works, this line prints the answer.\n4. **`except ValueError:`**: If the user types something that isn't a number (like \"hello\"), Python triggers this error. The code prints \"That was not a number!\" instead of stopping the program.\n5. **`except ZeroDivisionError:`**: If the user enters \"0,\" division becomes impossible. This specific error handles that scenario by printing \"Cannot divide by zero!\"\n\nIn short, it prevents the program from breaking when the user provides bad information.",
+    "task_type": "code_explanation"
+  }
+}
