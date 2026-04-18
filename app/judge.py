@@ -71,9 +71,14 @@ class LLMJudge:
     isolated via dspy.context so judge calls never pollute the training LM.
     """
 
-    def __init__(self, judge_model: str = "gemini/gemini-3.1-flash-lite-preview") -> None:
+    def __init__(
+        self,
+        judge_model: str = "gemini/gemini-3.1-flash-lite-preview",
+        api_key: str | None = None,
+    ) -> None:
         load_dotenv()
-        api_key = os.getenv("GEMINI_API_KEY")
+        if api_key is None:
+            api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
             raise EnvironmentError("GEMINI_API_KEY not set in environment.")
         self._lm = dspy.LM(model=judge_model, api_key=api_key, max_tokens=1024)

@@ -1,0 +1,12 @@
+{
+  "timestamp": "20260418_195455",
+  "optimizer": "MIPROv2",
+  "score": 0.0,
+  "instruction": "(instruction not extractable)",
+  "metadata": {
+    "optimizer": "MIPROv2",
+    "auto": "light",
+    "max_bootstrapped_demos": 0,
+    "max_labeled_demos": 0
+  }
+}

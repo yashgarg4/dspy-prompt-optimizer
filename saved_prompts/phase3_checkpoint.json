@@ -1,0 +1,206 @@
+{
+  "mipro_results": [
+    {
+      "id": "0",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "1",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "2",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "3",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "4",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "5",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "6",
+      "task_type": "email_subject",
+      "score": 85.0
+    },
+    {
+      "id": "7",
+      "task_type": "bug_report_summary",
+      "score": 35.0
+    },
+    {
+      "id": "8",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "9",
+      "task_type": "bug_report_summary",
+      "score": 75.0
+    },
+    {
+      "id": "10",
+      "task_type": "bug_report_summary",
+      "score": 35.0
+    },
+    {
+      "id": "11",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "12",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "13",
+      "task_type": "bug_report_summary",
+      "score": 35.0
+    },
+    {
+      "id": "14",
+      "task_type": "code_explanation",
+      "score": 35.0
+    },
+    {
+      "id": "15",
+      "task_type": "code_explanation",
+      "score": 35.0
+    },
+    {
+      "id": "16",
+      "task_type": "code_explanation",
+      "score": 30.0
+    },
+    {
+      "id": "17",
+      "task_type": "code_explanation",
+      "score": 55.0
+    },
+    {
+      "id": "18",
+      "task_type": "code_explanation",
+      "score": 40.0
+    },
+    {
+      "id": "19",
+      "task_type": "code_explanation",
+      "score": 35.0
+    }
+  ],
+  "mipro_demos_results": [
+    {
+      "id": "0",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "1",
+      "task_type": "email_subject",
+      "score": 85.0
+    },
+    {
+      "id": "2",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "3",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "4",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "5",
+      "task_type": "email_subject",
+      "score": 100.0
+    },
+    {
+      "id": "6",
+      "task_type": "email_subject",
+      "score": 85.0
+    },
+    {
+      "id": "7",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "8",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "9",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "10",
+      "task_type": "bug_report_summary",
+      "score": 35.0
+    },
+    {
+      "id": "11",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "12",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "13",
+      "task_type": "bug_report_summary",
+      "score": 55.0
+    },
+    {
+      "id": "14",
+      "task_type": "code_explanation",
+      "score": 30.0
+    },
+    {
+      "id": "15",
+      "task_type": "code_explanation",
+      "score": 85.0
+    },
+    {
+      "id": "16",
+      "task_type": "code_explanation",
+      "score": 65.0
+    },
+    {
+      "id": "17",
+      "task_type": "code_explanation",
+      "score": 100.0
+    },
+    {
+      "id": "18",
+      "task_type": "code_explanation",
+      "score": 40.0
+    },
+    {
+      "id": "19",
+      "task_type": "code_explanation",
+      "score": 35.0
+    }
+  ]
+}
