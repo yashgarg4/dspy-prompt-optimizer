@@ -1,4 +1,4 @@
-"""Streamlit UI — DSPy Prompt Optimizer (Phase 4)."""
+"""Streamlit UI — DSPy Prompt Optimizer."""
 
 import copy
 import json
