@@ -40,7 +40,7 @@ CHECKPOINT_FILE = Path(__file__).parent / "saved_prompts" / "phase3_checkpoint.j
 SLEEP_BETWEEN = 4
 
 
-# ── helpers ────────────────────────────────────────────────────────────────────
+# helpers
 
 def _safe(text: str, max_len: int = 80) -> str:
     return text.replace("\n", " ").encode("ascii", "replace").decode("ascii")[:max_len]
