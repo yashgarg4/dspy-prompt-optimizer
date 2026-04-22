@@ -156,7 +156,7 @@ def _optimize_and_evaluate(
     print(f"OPTIMIZER: {optimizer_name.upper()}")
     print(f"{'='*60}")
 
-    # ── Compile or load ────────────────────────────────────────────────────────
+    # Compile or load
     program = None
     if not force_reoptimize:
         program = load_optimized_program(optimizer_name)
