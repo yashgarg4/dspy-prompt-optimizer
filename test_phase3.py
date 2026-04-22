@@ -208,7 +208,7 @@ def _optimize_and_evaluate(
     return instr_avg, instr_results, demos_avg, demos_results, instruction
 
 
-# ── main ───────────────────────────────────────────────────────────────────────
+# main 
 
 def main() -> None:
     run_simba = "--simba" in sys.argv
