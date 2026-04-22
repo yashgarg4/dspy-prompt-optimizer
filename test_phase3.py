@@ -33,7 +33,7 @@ from app.optimizer import (
 )
 from app.utils.dataset import load_trainset
 
-# ── constants ──────────────────────────────────────────────────────────────────
+# constants 
 MAIN_MODEL = "gemini/gemini-3.1-flash-lite-preview"
 BASELINE_FILE = Path(__file__).parent / "saved_prompts" / "phase2_checkpoint.json"
 CHECKPOINT_FILE = Path(__file__).parent / "saved_prompts" / "phase3_checkpoint.json"
