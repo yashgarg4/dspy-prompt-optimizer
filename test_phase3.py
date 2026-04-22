@@ -185,7 +185,7 @@ def _optimize_and_evaluate(
     instruction = extract_instruction(program)
     print(f"\n[Discovered instruction]\n{instruction}\n")
 
-    # ── Evaluate: instruction only ─────────────────────────────────────────────
+    # Evaluate: instruction only
     print(f"Evaluating {optimizer_name.upper()} (instruction only)...")
     instr_avg, instr_results = evaluate_program(
         program, trainset, judge,
