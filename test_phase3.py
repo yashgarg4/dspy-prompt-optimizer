@@ -250,7 +250,7 @@ def main() -> None:
     mipro_by_type = _per_type_avg(mipro_results)
     mipro_demos_by_type = _per_type_avg(mipro_demos_results)
 
-    # ── SIMBA (optional) ───────────────────────────────────────────────────────
+    # SIMBA (optional
     simba_demos_avg = None
     simba_demos_by_type = None
     simba_instruction = None
@@ -262,7 +262,7 @@ def main() -> None:
         )
         simba_demos_by_type = _per_type_avg(simba_demos_results)
 
-    # ── Summary table ──────────────────────────────────────────────────────────
+    # Summary table
     all_types = sorted(baseline_by_type)
     col = 24
 
