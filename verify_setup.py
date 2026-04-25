@@ -46,7 +46,7 @@ def main() -> None:
         f"{'*' * 8}{api_key[-4:]}" if has_key else "not set or invalid format",
     )
 
-    # ── 3. Python version ─────────────────────────────────────────────────────
+    # 3. Python version 
     py_ok = sys.version_info >= (3, 11)
     all_ok &= check(
         f"Python >= 3.11",
