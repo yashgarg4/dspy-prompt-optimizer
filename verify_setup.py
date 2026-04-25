@@ -104,7 +104,7 @@ def main() -> None:
     else:
         print(f"  {WARN}  Skipping live API call (no valid API key).")
 
-    # ── Summary ───────────────────────────────────────────────────────────────
+    # Summary 
     print()
     if all_ok:
         print("All checks passed. Start the app with:\n")
