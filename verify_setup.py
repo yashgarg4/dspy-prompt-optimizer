@@ -28,7 +28,7 @@ def main() -> None:
     print("\nDSPy Prompt Optimizer — setup verification\n")
     all_ok = True
 
-    # ── 1. .env file
+    # 1. .env file
     env_path = Path(__file__).parent / ".env"
     has_env = env_path.exists()
     all_ok &= check(".env file found", has_env,
