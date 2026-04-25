@@ -54,7 +54,7 @@ def main() -> None:
         f"found {sys.version.split()[0]}",
     )
 
-    # ── 4. Core imports ───────────────────────────────────────────────────────
+    # 4. Core imports 
     for pkg, import_name in [
         ("dspy-ai", "dspy"),
         ("streamlit", "streamlit"),
