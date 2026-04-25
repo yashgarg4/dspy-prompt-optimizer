@@ -68,7 +68,7 @@ def main() -> None:
         except ImportError as e:
             all_ok &= check(f"import {import_name}", False, str(e))
 
-    # ── 5. Test cases file ────────────────────────────────────────────────────
+    # 5. Test cases file 
     tc_path = Path(__file__).parent / "test_cases" / "examples.json"
     all_ok &= check(
         "test_cases/examples.json exists",
