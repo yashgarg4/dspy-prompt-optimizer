@@ -37,7 +37,7 @@ def main() -> None:
         from dotenv import load_dotenv
         load_dotenv()
 
-    # ── 2. API key ────────────────────────────────────────────────────────────
+    # 2. API key 
     api_key = os.getenv("GEMINI_API_KEY", "")
     has_key = bool(api_key and api_key.startswith("AIza"))
     all_ok &= check(
