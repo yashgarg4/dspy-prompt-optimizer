@@ -80,7 +80,7 @@ def main() -> None:
         examples = json.loads(tc_path.read_text(encoding="utf-8"))
         all_ok &= check(f"examples.json has entries", len(examples) > 0, f"{len(examples)} found")
 
-    # ── 6. Live API call ──────────────────────────────────────────────────────
+    # 6. Live API call 
     if has_key:
         print("\n  Making a test API call (this uses one request from your quota)...")
         try:
